@@ -13,44 +13,48 @@ Videos of Learned Policies
 ===============================================================================
 Below, we visualize examples of the behavoir learned by our method. The green images shown on the left are examples of the success examples our method uses to learn these tasks. Note that these success examples are not expert trajectories, but rather examples of states where the task is solved (e.g., where the nail is hammered into the wall). We emphasize that our method does not use any reward function.
 
+**TASK:** Hammer the nail into the board.
+![Success Examples. <br> Note that the nail has already been inserted in all examples.](images/hammer.gif width="100%") ![SQIL (best prior method)](videos/sqil_hammer.mp4 width="100%") ![RCE (our method)](videos/hammer.mp4 width="100%")
 
-![](images/hammer.gif width="100%") ![2](videos/hammer_v1.mp4 width="100%") ![3](videos/hammer_v2.mp4 width="100%")
-<p style="text-align:center;"><i>Hammer the nail into the board.</i></p>
+**TASK:** Put the green object in the blue bin.
+![Success Examples](images/sawyer_bin_picking.gif width="100%") ![SQIL (best prior method)](videos/sqil_sawyer_bin_picking.mp4 width="100%") ![RCE (our method)](videos/sawyer_bin_picking.mp4 width="100%")
 
-![](images/sawyer_bin_picking.gif width="100%") ![2](videos/sawyer_bin_picking_v3.mp4 width="100%") ![3](videos/sawyer_bin_picking_v2.mp4 width="100%")
-<p style="text-align:center;"><i>Put the green object in the blue bin.</i></p>
+**TASK:** Place the lid on the box.
+![Success Examples](images/sawyer_box_close.gif width="100%") ![SQIL (best prior method)](videos/sqil_sawyer_box_close.mp4 width="100%") ![RCE (our method)](videos/sawyer_box_close.mp4 width="100%")
 
-![](images/sawyer_box_close.gif width="100%") ![2](videos/sawyer_box_close_v3.mp4 width="100%") ![3](videos/sawyer_box_close_v2.mp4 width="100%")
-<p style="text-align:center;"><i>Place the lid on the box.</i></p>
+**TASK:** Open the door.
+![Success Examples](images/door.gif width="100%") ![SQIL (best prior method)](videos/sqil_door.mp4 width="100%") ![RCE (our method)](videos/door.mp4 width="100%")
 
-![](images/door.gif width="100%") ![2](videos/door_v2.mp4 width="100%") ![3](videos/door_v4.mp4 width="100%")
-<p style="text-align:center;"><i>Open the door.</i></p>
+**TASK:** Open the drawer.
+![Success Examples](images/sawyer_drawer_open.gif width="100%") ![SQIL (best prior method)](videos/sqil_sawyer_drawer_open.mp4 width="100%") ![RCE (our method)](videos/sawyer_drawer_open.mp4 width="100%")
 
-![](images/sawyer_drawer_open.gif width="100%") ![2](videos/sawyer_drawer_open_v1.mp4 width="100%") ![3](videos/sawyer_drawer_open_v2.mp4 width="100%")
-<p style="text-align:center;"><i>Open the drawer.</i></p>
+**TASK:** Lift the object. (The colored spheres are irrelevant.)
+![Success Examples](images/sawyer_lift.gif width="100%") ![SQIL (best prior method)](videos/sqil_sawyer_lift.mp4 width="100%") ![RCE (our method)](videos/sawyer_lift.mp4 width="100%")
 
-![](images/sawyer_drawer_close.gif width="100%") ![2](videos/sawyer_drawer_close_v1.mp4 width="100%") ![3](videos/sawyer_drawer_close_v2.mp4 width="100%")
-<p style="text-align:center;"><i>Close the drawer.</i></p>
+**TASK:** Push the red object to the green sphere.
+![Success Examples](images/sawyer_push.gif width="100%") ![SQIL (best prior method)](videos/sqil_sawyer_push.mp4 width="100%") ![RCE (our method)](videos/sawyer_push.mp4 width="100%")
 
-![](images/sawyer_lift.gif width="100%") ![2](videos/sawyer_lift_v1.mp4 width="100%") ![3](videos/sawyer_lift_v3.mp4 width="100%")
-<p style="text-align:center;"><i>Lift the object. (The colored spheres are irrelevant.)</i></p>
 
-![](images/sawyer_push.gif width="100%") ![2](videos/sawyer_push_v1.mp4 width="100%") ![3](videos/sawyer_push_v6.mp4 width="100%")
-<p style="text-align:center;"><i>Push the red object to the green sphere.</i></p>
+Additional videos of behaviors learned by RCE
+--------------------------------------------------------------------
 
-![](images/sawyer_clear_image.gif width="100%") ![2](videos/sawyer_clear_image_v1.mp4 width="100%") ![3](videos/sawyer_clear_image_v2.mp4 width="100%")
-<p style="text-align:center;"><i>Clear the object from the table. (image observations)</i></p>
+**TASK:** Close the drawer.
+![Success Examples](images/sawyer_drawer_close.gif width="100%") ![RCE (our method)](videos/sawyer_drawer_close.mp4 width="100%")
 
-![](images/sawyer_reach_image.gif width="100%") ![2](videos/sawyer_reach_image_v1.mp4 width="100%") ![3](videos/sawyer_reach_image_v2.mp4 width="100%")
-<p style="text-align:center;"><i>Reach for the red object. (image observations)</i></p>
+**TASK:** Clear the object from the table. (image observations)
+![Success Examples](images/sawyer_clear_image.gif width="100%") ![RCE (our method)](videos/sawyer_clear_image.mp4 width="100%")
+
+**TASK:** Reach for the red object. (image observations)
+![Success Examples](images/sawyer_reach_image.gif width="100%") ![RCE (our method)](videos/sawyer_reach_image.mp4 width="100%")
+
 
 
 Failure Cases
 -------------------------------------------------------------------------------
 For the task below, the agent makes some headway on solving the task, but is unable to keep the object in the desired location.
 
-![](images/relocate.gif width="100%") ![2](videos/relocate_v1.mp4 width="100%") ![3](videos/relocate_v2.mp4 width="100%")
-<p style="text-align:center;"><i>Pick up the ball.</i></p>
+**TASK:** Pick up the ball.
+![Success Examples](images/relocate.gif width="100%") ![RCE (our method)](videos/relocate.mp4 width="100%")
 
 
 
